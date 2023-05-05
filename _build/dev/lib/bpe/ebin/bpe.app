@@ -1,0 +1,11 @@
+{application,bpe,
+             [{applications,[kernel,stdlib,elixir,syn,kvs]},
+              {description,"BPE Business Process Engine"},
+              {modules,['Elixir.BPE','Elixir.Test.Compare',
+                        'Elixir.Test.NSinfo','Elixir.Test.Sample',
+                        'Elixir.Test.Service',bpe,bpe_account,bpe_boundary,
+                        bpe_env,bpe_event,bpe_gateways,bpe_metainfo,bpe_n2o,
+                        bpe_otp,bpe_ping,bpe_proc,bpe_task,bpe_xml]},
+              {registered,[]},
+              {vsn,"7.10.4"},
+              {mod,{bpe_otp,[]}}]}.

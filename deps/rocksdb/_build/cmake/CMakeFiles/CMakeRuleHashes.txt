@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+b70079ee1bf22b401015408052317084 CMakeFiles/rocksdb
+a75bec1f905b957e5e9a46645beebafc CMakeFiles/rocksdb-complete
+ecba49185e9e70d66c98366009ab9c09 rocksdb-prefix/src/rocksdb-stamp/rocksdb-build
+93d560a670a9e276fcb1b8b2ac8d271c rocksdb-prefix/src/rocksdb-stamp/rocksdb-configure
+16811af5d76b5bbebdb1e1c7399ea8cb rocksdb-prefix/src/rocksdb-stamp/rocksdb-download
+4baea927739022248cf02c5dbd595b83 rocksdb-prefix/src/rocksdb-stamp/rocksdb-install
+133306fa7c24a855a7bf411ceb5d5d1c rocksdb-prefix/src/rocksdb-stamp/rocksdb-mkdir
+4f3aa1d2590739e1f753443af89725ed rocksdb-prefix/src/rocksdb-stamp/rocksdb-patch
+aed0053af464a01f329b79585954e411 rocksdb-prefix/src/rocksdb-stamp/rocksdb-update

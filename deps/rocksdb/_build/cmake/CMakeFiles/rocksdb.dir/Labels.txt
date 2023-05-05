@@ -1,0 +1,13 @@
+# Target labels
+ rocksdb
+# Source files and their labels
+/home/olha/Стільниця/doclinkTest-main/deps/rocksdb/_build/cmake/CMakeFiles/rocksdb
+/home/olha/Стільниця/doclinkTest-main/deps/rocksdb/_build/cmake/CMakeFiles/rocksdb.rule
+/home/olha/Стільниця/doclinkTest-main/deps/rocksdb/_build/cmake/CMakeFiles/rocksdb-complete.rule
+/home/olha/Стільниця/doclinkTest-main/deps/rocksdb/_build/cmake/rocksdb-prefix/src/rocksdb-stamp/rocksdb-install.rule
+/home/olha/Стільниця/doclinkTest-main/deps/rocksdb/_build/cmake/rocksdb-prefix/src/rocksdb-stamp/rocksdb-mkdir.rule
+/home/olha/Стільниця/doclinkTest-main/deps/rocksdb/_build/cmake/rocksdb-prefix/src/rocksdb-stamp/rocksdb-download.rule
+/home/olha/Стільниця/doclinkTest-main/deps/rocksdb/_build/cmake/rocksdb-prefix/src/rocksdb-stamp/rocksdb-update.rule
+/home/olha/Стільниця/doclinkTest-main/deps/rocksdb/_build/cmake/rocksdb-prefix/src/rocksdb-stamp/rocksdb-patch.rule
+/home/olha/Стільниця/doclinkTest-main/deps/rocksdb/_build/cmake/rocksdb-prefix/src/rocksdb-stamp/rocksdb-configure.rule
+/home/olha/Стільниця/doclinkTest-main/deps/rocksdb/_build/cmake/rocksdb-prefix/src/rocksdb-stamp/rocksdb-build.rule

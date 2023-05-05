@@ -1,0 +1,11 @@
+{application,n2o,
+             [{applications,[kernel,stdlib,elixir,crypto]},
+              {description,"N2O MQTT TCP WebSocket"},
+              {modules,['Elixir.AES.GCM','Elixir.N2O','Elixir.N2O.FTP',n2o,
+                        n2o_bert,n2o_cowboy,n2o_ftp,n2o_gproc,n2o_heart,
+                        n2o_json,n2o_mqtt,n2o_multipart,n2o_pi,n2o_proto,
+                        n2o_ring,n2o_secret,n2o_session,n2o_static,n2o_syn,
+                        n2o_ws,n2o_xml]},
+              {registered,[]},
+              {vsn,"9.11.1"},
+              {mod,{n2o,[]}}]}.

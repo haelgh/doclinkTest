@@ -1,0 +1,10 @@
+{application,testTask,
+             [{applications,[kernel,stdlib,elixir,logger,n2o,rocksdb,cowboy,
+                             ranch,kvs,nitro,bpe,mnesia]},
+              {description,"Test Task"},
+              {modules,['Elixir.BOOT','Elixir.Doclink','Elixir.DoclinkPi',
+                        'Elixir.Records','Elixir.Test','Elixir.Test.Proc',
+                        'Elixir.TestTask.Application']},
+              {registered,[]},
+              {vsn,"0.0.1"},
+              {mod,{'Elixir.TestTask.Application',[]}}]}.

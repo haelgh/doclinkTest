@@ -1,0 +1,4 @@
+/home/olha/Стільниця/doclinkTest-main/deps/rocksdb/_build/cmake/CMakeFiles/rebuild_cache.dir
+/home/olha/Стільниця/doclinkTest-main/deps/rocksdb/_build/cmake/CMakeFiles/edit_cache.dir
+/home/olha/Стільниця/doclinkTest-main/deps/rocksdb/_build/cmake/CMakeFiles/rocksdb.dir
+/home/olha/Стільниця/doclinkTest-main/deps/rocksdb/_build/cmake/CMakeFiles/erocksdb.dir
