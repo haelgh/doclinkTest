@@ -21,33 +21,23 @@ defmodule DoclinkPi do
   end
 
   def check(feed) do
-    IO.puts("In check function")
     pid = :n2o_pi.pid(:async, feed)
-    IO.puts("pid: #{inspect(pid)}")
 
     case :bpe.cache(:terminateLocks, {:terminate, feed}) do
       pid when is_pid(pid) ->
         insert_doclink()
-        IO.puts("1 case, pid: #{inspect(pid)}")
-        # mock
         pid
 
       _ when is_pid(pid) ->
         case :kvs.index(:lock, :feed, feed, KVS.kvs(mod: :kvs_mnesia)) do
           x when length(x) <= 2 and is_pid(pid) ->
-            insert_doclink()
-            IO.puts("2 case, pid: #{inspect(pid)}")
-            # mock
+            insert_doclink()      
             pid
 
-          _ ->
-            IO.puts("3 case, return empty list")
-            []
+          _ -> []
         end
 
-      _ ->
-        IO.puts("3 case, return empty list")
-        []
+      _ -> []
     end
 
     true
